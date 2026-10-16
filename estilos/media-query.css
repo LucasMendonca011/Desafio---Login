@@ -29,6 +29,10 @@ Desktop grande / monitor wide	1536px ou mais
         float: right;
         width: 70%;
     }
+
+    .seila {
+        display: inline-block;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -49,5 +53,17 @@ Desktop grande / monitor wide	1536px ou mais
     #formulario {
         float: right;
         width: 50%;
+    }
+
+    #formulario > h1 {
+        font-size: 2em;
+    }
+
+    #formulario > p {
+        font-size: 1.2em;
+    }
+
+    .seila {
+        display: inline-block;
     }
 }
